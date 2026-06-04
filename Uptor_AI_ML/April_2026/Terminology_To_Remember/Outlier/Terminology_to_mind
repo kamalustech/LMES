@@ -1,0 +1,7 @@
+eg:: var = [2,3,4,5,9999, 6,7,8,9]
+Outlier
+Concept of finding extreme (ood data) positive or negative data is called outlier
+Outlier can be verified or checked using visualization concept called "Box Plot"
+
+Program::
+1. Quartile or Percentile based calculation will help us in identifying outlier

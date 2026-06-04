@@ -1,0 +1,23 @@
+Data Types
+Strings
+name = 'Dhoni'
+name = "Dhoni"
+name = '''Dhoni'''
+name  = ("Dhoni",)
+
+List
+var = ["Kamal"]
+var = [1,2,3,4,5]
+var = [1, "Kamal", 12.3, True,["Sherlin",38]]
+
+Tuples
+var = ("Kamal",)
+var = ("Kamal", 90,"1.23")
+
+Dictionary
+var = {"name": "Kamal","age":40}
+
+Mutable -  can be changed - List and Dictionary
+Immutable -  cannot be changed - Strings, Tuples and Numbers
+
+

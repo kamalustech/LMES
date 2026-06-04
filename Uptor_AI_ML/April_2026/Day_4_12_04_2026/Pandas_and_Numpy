@@ -1,0 +1,4 @@
+pandas
+numpy
+pip install pandas
+when you install pandas, numpy will come on its own

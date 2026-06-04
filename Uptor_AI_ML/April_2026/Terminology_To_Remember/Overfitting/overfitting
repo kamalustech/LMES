@@ -1,0 +1,8 @@
+When the model learns all the data or full data it is called over fitting
+
+When the model learns only fewer data then it is called underfitting
+
+We need to make sure our model stays in moderate without under or over fitting
+To overcome this issue, we use the concept of
+training/testing : 70:30
+
