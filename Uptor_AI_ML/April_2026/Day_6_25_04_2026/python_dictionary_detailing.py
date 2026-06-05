@@ -20,6 +20,7 @@
 8. dictionary should not be duplicated
 9. if duplicated it will pick the latest declared dictionary
 """
+from idlelib import outwin
 
 #print(var[0]) # this line will throw error becasue dictionary cannot be manupulated using index
 # dictionary is easily accessible than index
@@ -41,4 +42,52 @@ var["country"].append("India")
 # print(type(var["country"]))
 
 # print(var["country"][0])
-print(type(var["country"][0][0])) #Chained indexing
+# print(type(var["country"][0][0])) #Chained indexing
+
+# var = {"name":"dhoni", "country":["australia","Denmark","Cuba"]}
+# var1 = {"team":"csk"}
+# print(var + var1)
+
+# var = {"name":"dhoni", "country":["australia","Denmark","Cuba"]}
+# var1 = {"team":"csk"}
+# var.update(var1)
+# print(var)
+
+# var = {"name":"dhoni", "country":["australia","Denmark","Cuba"]}
+# var1 = {"team":"csk"}
+# var2 = {"age":42}
+# output = {**var,**var2,**var1}
+# print(output)
+#
+import json
+var = '{"name":"dhoni","team":"rcb","team":"csk"}'
+# # print(type(var))
+# # print(tuple(var))
+# # print(var)
+# print(var[0])
+# # print(var["name"])
+# convert_var = json.loads(var)
+# print(type(convert_var))
+#
+# # var = str(convert_var)
+# # print(var)
+# converted_str = json.dumps(var)
+# print(type(converted_str))
+#
+# print(var["team"])
+
+var = {"name":"dhoni","team":"rcb","team":"csk"}
+for x in var:
+    print(x)
+
+for x in var.items():
+    print(x)
+for key,values in var.items():
+    print(key,values)
+
+for value in var.values():
+    print(value)
+
+for key in var.keys():
+    print(key)
+
