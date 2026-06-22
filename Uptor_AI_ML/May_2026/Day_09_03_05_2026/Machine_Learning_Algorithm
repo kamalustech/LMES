@@ -1,0 +1,20 @@
+Algorithm - Predefined function or predefined rule
+Algorithm - Models
+
+1.Supervised
+    1.1 Classfication - Categorical output
+        a. Logistic Regression
+        b. Decision Tree Classifier
+        c. Random Forest Classifier
+        d. Support Vector Classifier
+        e. KNN Classifier
+    1.2 Regression - Continuous Output
+        a. Linear Regression
+        b. Decision Tree Regressor
+        c. Random Forest Regressor
+        d. Support Vector Regressor
+        e. KNN Regressor
+
+    2. UnSupervised
+    3. Semi-Supervised
+    

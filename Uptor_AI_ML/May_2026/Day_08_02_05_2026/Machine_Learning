@@ -1,0 +1,48 @@
+Machine Learning is study of data which is in the form or "Structured" way
+
+1.CSV, 2. Excel, 3. JSON, 4. DB
+
+Machine Learning::
+a. Supervised Learning, b. Unsupervised Learning, c. Semi -structured
+    Supervised Learning
+        a.1. Classification -
+            when the putput belongs to some category based on prediction
+            Ex. True or False, yes or no, Wk or batesman or Bowler
+        a.2. Regression -
+            When the output belongs to numerical and continuous data
+            Ex: Housing Price (3000, 4000, 5000, 6000)
+            Linear Regression
+            Logistic Regression
+            Decision Tree
+                Decision Tree Classifier
+                Decision Tree Regressor
+            RandomForest Tree
+                Random Forest Classifier
+                Random Forest Regressor
+            Support Vector Machine
+                Support Vector Classifier
+                Support Vector Regressor
+             Knn (K-Nearest Neighbour)
+                KNN Classifier
+                KNN Regressor
+             Naive Bayes
+        b. Unspuervised
+            No Target or No Prediction or Forecast
+            b.1 PCA (Dimensionality Reduction)
+            b.1 Clustering
+                b.1.1.KMeans
+                b.1.2 DB Scanning (Density Based Scanning)
+                b.1.3 Heirarchial Clustering
+                b.1.4 TSNE  t-distributed Stochastic Neighbour Embedding
+                    (High Dimensional data into lower dimension data for visualization)
+
+
+
+Deep Learning, study of data that is in unstructured form
+1. Image, 2.Audio, 3.Video
+
+NLP is the study of data that is in the semi structured form
+
+1. Text file 2. Text Prompt(GPT, Google Search)
+
+
