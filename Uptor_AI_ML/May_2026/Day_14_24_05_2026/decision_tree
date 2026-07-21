@@ -1,0 +1,16 @@
+1. Decision Tree =  Supervised Algorithm
+1.1 Decision Tree
+    a. Decision Tree Classifier
+    b. Decision Tree Regressor
+2. Non-Linear
+    2.1. Also when data set is medium
+    2.2 Number of column is high
+3. It will work like tree structure
+4. Parameters involved in Decision Tree
+    4.1 Criterion
+        To choose the suitable node (Parent)
+        a. gini  -  (impurity)
+        b. entropy - (information gain)
+    4.2 max_depth
+        How far or how long tree can be formed
+        max_depth = None, 1,2,3,4,5

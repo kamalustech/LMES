@@ -1,0 +1,21 @@
+Decision Tree- Supervised Algorithm
+
+1. Decision Tree
+    1.1 Regression
+    1.2 Classification
+
+ When Decision Tree is used?
+
+ 2. When our data is non-Linear
+ 3. When our classification output is multi classifier
+ 4. When data set is not either Low or High
+ 5. When we are having more classification(features)
+
+ Format:
+
+ from sklearn.tree import DecisionTreeRegressor
+ from sklearn.tree import DecisionTreeClassifier
+
+ Metric:
+ confusion_metrics()
+ 

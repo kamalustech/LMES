@@ -1,0 +1,35 @@
+flu fever   tiredness   vomit   corona
+Y   N       Y           Y       T
+Y   Y       Y           Y       T
+N   N       N           N       F
+N   N       Y           N       F
+Y   Y       N           Y       T
+Y   N       N           N       F
+Y   Y       N           Y       T
+Y   N       N           N       F
+Y   Y       Y           Y       T
+N   N       N           N       F
+
+Train/Test ------> 80:20
+orona
+Y   N       Y           Y       T
+Y   Y       Y           Y       T
+N   N       N           N       F
+N   N       Y           N       F
+Y   Y       N           Y       T
+
+x_test                      y_test
+-------------------------------------
+Y   N       N           N       F
+Y   Y       Y           Y       T
+N   N       N           N       F
+
+accuracy_score = 1.0
+
+                          predicted_true(y_prediction)        predicted false(y_prediction)
+                          -----------------------------------------------------------------
+actual_True(y_test)             2(True Positive)               0 (False Negative)
+actual_False(y_test)            0(False Positive)              2 (True Negative)
+
+[[2,0
+ [0,2]]
